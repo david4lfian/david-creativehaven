@@ -11,12 +11,15 @@ import ContactMe from '../component/landingpage/ContactMe';
 import Design from '../component/Design';
 
 
+
 const Home = () => {
     return (
       <div>
         <Design />
             <div> 
               <Newnavbar />
+              
+              
               <Newhero />
               <Newaboutme />
               <Skills />

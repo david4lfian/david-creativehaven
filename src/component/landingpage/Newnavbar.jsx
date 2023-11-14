@@ -1,7 +1,9 @@
-import React, {useState} from 'react';
+import React, { useState} from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes} from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-scroll';
+import {motion, useViewportScroll } from "framer-motion";
+
 
 const Navbar = () => {
     const [nav, setNav] = useState (true)
@@ -10,10 +12,34 @@ const Navbar = () => {
         setNav(!nav)
     }
 
+    /** this hook gets the scroll y-axis **/
+    const { scrollY } = useViewportScroll();
+    /** this hook manages state **/
+    const [hidden, setHidden] = React.useState(false);
+
+    function update() {
+        if (scrollY?.current < scrollY?.prev) {
+          setHidden(false);
+        } else if (scrollY?.current > 100 && scrollY?.current > scrollY?.prev) {
+          setHidden(true);
+        }
+      }
+
+    React.useEffect(() => {
+        return scrollY.onChange(() => update());
+    });
+
     return (
-        <div id="main_navbar" className="min-w-[450px] w-full block ">
-        <div id="navbar" className="flex w-100% text-xl justify-center py-12 md:py-12 ">
-            <div className="w-full flex justify-between px-20 sm:px-0 sm:justify-center relative">
+        
+            <motion.nav 
+                variants={{
+                    visible: { y: 0},
+                    hidden: {opacity: 0, y: "-100%"},
+                }}
+                animate={hidden ? "hidden" : "visible"}
+                transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.6 }}
+
+                className= "fixed z-50 bg-[#f6f6f6] bg-opacity-[0.65]  min-w-[450px] w-full flex w-100% text-xl py-10 sm:py-10 justify-between px-20 sm:px-0 sm:justify-center">
                     <ul className="flex gap-x-7 mw950:gap-x-12 font-semibold">
                         <li >
                             {/* <a href="#main_aboutme" className="hidden lg:flex hover:text-hijauA3B18A">About Me</a> */}
@@ -62,12 +88,41 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </nav>
-            </div>
-        </div>
-    </div>
-        
+            </motion.nav>
+
         
     )
 }
 
 export default Navbar
+
+
+// <motion.nav 
+//         variants={{
+//             visible: {y: 0},
+//             hidden: {y: "-100%"},
+//         }}
+//         animate={hidden ? "hidden" : "visible"}
+//         transition={{ duration: 0.75, ease: "easeInOut" }}
+//         id="main_navbar" className="">
+
+// </motion.nav>
+
+
+
+
+
+
+
+//     const {scrollY} = useScroll();
+//     const [hidden, setHidden] = useState(false);
+
+//     useMotionValueEvent(scrollY, "change", (latest) => {
+//         const previous = scrollY.getPrevious();
+//         console.log(latest, previous);
+//         if(latest > previous){
+//             setHidden(true);
+//         }else{
+//             setHidden(false);
+//         }
+// });
