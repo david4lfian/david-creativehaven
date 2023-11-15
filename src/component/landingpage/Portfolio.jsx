@@ -12,11 +12,11 @@ const Portfolio = () => {
             <span className="text-heading2 text-hijau344E41 font-bold mx-auto">Projects and Case Studies</span>
                 <div id="port" className=" flex flex-row flex-wrap justify-center mw1445:justify-start mx-[50px] mw1025:mx-28 mt-20 gap-8">
 
-                    <iframe title="lentera" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272265?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    <iframe title="ptsam" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272525?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    <iframe title="myskill" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272683?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                     <iframe title="9c" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272903?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-
+                    <iframe title="myskill" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272683?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe title="ptsam" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272525?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                    <iframe title="lentera" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272265?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                    
                 </div>
                 
         </div>
