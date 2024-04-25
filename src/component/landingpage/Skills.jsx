@@ -17,7 +17,7 @@ const Skills = () => {
                         <img src={ui} alt="" className="  w-[500px] h-[400px] min-h-[400px] object-cover"></img>
                         <div className="w-full absolute inset-x-0 -bottom-[123px] group group-hover:bottom-0 duration-500 bg-white rounded-t-lg">
                             <div className="flex flex-col">
-                                <span className="text-heading3 p-2 pl-6 font-bold">UI Design</span>
+                                <span className="text-heading3 p-2 pl-6 font-bold">UI/UX Design</span>
                                 <span className="text-heading4 p-2 pl-6 font-base">Figma</span>
                                 <span className="text-heading4 p-2 pl-6 font-base">Miro</span>
                                 <span className="text-heading4 p-2 pl-6 pb-3 font-base">Notion</span>

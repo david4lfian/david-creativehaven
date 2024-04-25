@@ -36,8 +36,10 @@ const Navbar = () => {
                     visible: { y: 0},
                     hidden: {opacity: 0, y: "-100%"},
                 }}
-                animate={hidden ? "hidden" : "visible"}
-                transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.6 }}
+                animate= {hidden ? "hidden" : "visible"}
+           
+                
+                transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.8 }}
 
                 className= "fixed z-50 bg-[#f6f6f6] bg-opacity-[0.65]  min-w-[450px] w-full flex w-100% text-xl py-10 sm:py-10 justify-between px-20 sm:px-0 sm:justify-center">
                     <ul className="flex gap-x-7 mw950:gap-x-12 font-semibold">

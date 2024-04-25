@@ -16,7 +16,7 @@ const Portfolio = () => {
                     <iframe title="myskill" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272683?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                     <iframe title="ptsam" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272525?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                     <iframe title="lentera" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272265?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    
+                    <iframe title="xxi" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/197051369?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
                 
         </div>
