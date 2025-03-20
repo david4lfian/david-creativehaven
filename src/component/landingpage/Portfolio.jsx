@@ -7,18 +7,25 @@ import React from "react";
 const Portfolio = () => {
     
     return (
-        <div id="mainPortfolio" name="mainPortfolio" className="min-w-[450px] h-full w-full flex flex-col mt-20">
+        <div id="mainPortfolio" name="mainPortfolio" className=" min-w-[450px] h-full w-full flex flex-col mt-20">
             <span className="text-heading2 text-hijauA3B18A  font-bold mx-auto">UI/UX </span>
             <span className="text-heading2 text-hijau344E41 font-bold mx-auto">Projects and Case Studies</span>
-                <div id="port" className=" flex flex-row flex-wrap justify-center mw1445:justify-start mx-[50px] mw1025:mx-28 mt-20 gap-8">
-
-                    <iframe title="9c" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272903?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    <iframe title="myskill" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272683?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    <iframe title="ptsam" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272525?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    <iframe title="lentera" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/184272265?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    <iframe title="xxi" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/197051369?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                </div>
                 
+            <div id="port" className=" flex flex-row flex-wrap justify-center mw1445:justify-start mx-[50px] mw1025:mx-28 mt-20 gap-8">
+                
+            <iframe title="xxi" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/221744859?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            
+            <iframe title="9c" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/221744541?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+
+            <iframe title="myskill" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/221743927?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+
+            <iframe title="ptsam" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/221716657?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+
+            <iframe title="lentera" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/221716939?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+
+            </div>
+
+
         </div>
     )
 }

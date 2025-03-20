@@ -15,7 +15,7 @@ const Skills = () => {
                     
                     <div id="card" className=" max-w-[350px] md:max-w-[450px] duration-700 shadow-lg rounded-md overflow-hidden relative group">
                         <img src={ui} alt="" className="  w-[500px] h-[400px] min-h-[400px] object-cover"></img>
-                        <div className="w-full absolute inset-x-0 -bottom-[123px] group group-hover:bottom-0 duration-500 bg-white rounded-t-lg">
+                        <div className="w-full absolute inset-x-0 -bottom-[123px] group group-hover:bottom-0 duration-500 bg-white ">
                             <div className="flex flex-col">
                                 <span className="text-heading3 p-2 pl-6 font-bold">UI/UX Design</span>
                                 <span className="text-heading4 p-2 pl-6 font-base">Figma</span>
@@ -28,9 +28,9 @@ const Skills = () => {
                     
                     <div id="card" className=" max-w-[350px] md:max-w-[450px] duration-700 shadow-lg rounded-md overflow-hidden relative group">
                         <img src={web} alt="" className=" w-[500px] h-[400px] min-h-[400px] object-cover"></img>
-                        <div className="w-full absolute inset-x-0 -bottom-[121px] group group-hover:bottom-0 duration-500 bg-white rounded-t-lg">
+                        <div className="w-full absolute inset-x-0 -bottom-[123px] group group-hover:bottom-0 duration-500 bg-white ">
                             <div className="flex flex-col">
-                                <span className="text-heading3 p-2 pl-6 font-semibold">Web Developer</span>
+                                <span className="text-heading3 p-2 pl-6 font-semibold">Beginner Front End</span>
                                 <span className="text-heading4 p-2 pl-6 font-base">Html</span>
                                 <span className="text-heading4 p-2 pl-6 font-base">Css</span>
                                 <span className="text-heading4 p-2 pl-6 pb-3 font-base">Tailwind Css</span>

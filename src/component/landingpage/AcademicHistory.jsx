@@ -11,8 +11,51 @@ const AcademicHistory = () => {
         <div className="mx-auto w-full grid grid-cols-9 xs:pl-14 md:pl-0 ">
             <div id="kerja-kiri" className="col-span-4 w-full h-full xs:hidden md:flex">
                 <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 md:flex flex-col justify-start items-end ">
+                    <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">GAOTek Inc.</span>
+                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1 item-end">UI/UX Designer Intern</span>
+                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> Nov 2024 - Now </span>
+                </div>
+            </div>
+            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
+                <div className="h-full w-1 bg-hijau344E41"></div>
+                <div className="absolute w-6 h-6 rounded-full bg-hijau588157 z-10 text-white text-center">7</div>
+            </div>
+
+            <div id="kerja-kanan" className="md:col-span-4 xs:col-span-8 w-full h-full xs:flex md:hidden">
+                <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 flex flex-col justify-start items-start ">
+                    <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">GAOTek Inc.</span>
+                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1">UI/UX Designer Intern</span>
+                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> Nov 2024 - Now </span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div className="mx-auto w-full grid grid-cols-9 xs:pl-14 md:pl-0">
+            <div id="bootcamp-kiri" className="col-span-4 w-full h-full xs:hidden md:flex">
+                
+            </div>
+            <div className="relative col-span-1 w-full h-full flex justify-center items-center">
+                <div className="h-full w-1 bg-hijau344E41"></div>
+                <div className="absolute w-6 h-6 rounded-full bg-hijau588157 z-10 text-white text-center">6</div>
+            </div>
+
+            <div id="bootcamp-kanan" className="md:col-span-4 xs:col-span-8 w-full h-full ">
+                <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 flex flex-col justify-start items-start">
                     <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">MySkill (Bootcamp)</span>
-                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1 item-end">Final Project: Best Team</span>
+                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1">Final Project Batch 11</span>
+                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0">Nov 2023 - Des 2023</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div className="mx-auto w-full grid grid-cols-9 xs:pl-14 md:pl-0 ">
+            <div id="kerja-kiri" className="col-span-4 w-full h-full xs:hidden md:flex">
+                <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 md:flex flex-col justify-start items-end ">
+                    <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">MySkill (Bootcamp)</span>
+                    <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1 item-end">Final Project Batch 10: Best Team</span>
                     <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> Sept 2023 - Okt 2023 </span>
                 </div>
             </div>
