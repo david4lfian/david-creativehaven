@@ -15,13 +15,13 @@ const ContactMe = () => {
             <div className=" min-w-[450px] md:w-full xl:w-full bg-hijauDAD7CD flex flex-col mt-[80px] px-10 md:pl-32 pt-12 pb-1 md:pr-32">
                 <span className="text-heading3 font-bold mb-3">Hook me up!</span>
                 <div className="flex-row">
-                    <a href="mailto:davidalfianhaven@gmail.com"><FontAwesomeIcon icon={faEnvelope} /><span className="pl-5">davidalfianhaven@gmail.com</span></a>
+                    <a href="mailto:davidalfiana@gmail.com"><FontAwesomeIcon icon={faEnvelope} /><span className="pl-5">davidalfianhaven@gmail.com</span></a>
                 </div>
                 <div className="flex-row">
                     <a href="https://www.google.com/maps/place/Jl.+Dawuhan+No.19,+Banjarejo,+Kec.+Taman,+Kota+Madiun,+Jawa+Timur+63137/@-7.6536785,111.5320156,20z/data=!4m6!3m5!1s0x2e79be82899aac57:0x89d89feba2c8a3ea!8m2!3d-7.6536582!4d111.5320763!16s%2Fg%2F11rkm8wq8w"><FontAwesomeIcon icon={faMapMarker} /><span className="pl-5">Dawuhan Street Rt. 05 Rw.02 Banjarejo Taman Madiun</span></a>
                 </div>
                 <div className="flex-row">
-                    <a href="https://www.linkedin.com/in/davidalfianhvn/"><FontAwesomeIcon icon={faLinkedin} /><span className="pl-5">David Alfian</span></a>
+                    <a href="https://www.linkedin.com/in/davidalfiana/"><FontAwesomeIcon icon={faLinkedin} /><span className="pl-5">David Alfian Ariyoga</span></a>
                 </div>
                 <div className="flex-row">
                     <a href="https://wa.me/+6285186068675"><FontAwesomeIcon icon={faWhatsapp} /><span className="pl-5">085186068675</span></a>

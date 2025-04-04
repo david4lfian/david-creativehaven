@@ -4,7 +4,7 @@ import { faDownload} from "@fortawesome/free-solid-svg-icons";
 import { faGithubSquare ,faLinkedin, faBehanceSquare, faInstagramSquare} from "@fortawesome/free-brands-svg-icons";
 
 import pp from '../../img/pp2.webp';
-import cv from '../../assets/CV-DAVID.pdf';
+import cv from '../../assets/DAVID CV.pdf';
 
 const Newaboutme = () => {
 
@@ -44,14 +44,14 @@ const Newaboutme = () => {
             </div>
              
             <div className="flex flex-row items-center group gap-4">
-                <a href="https://www.linkedin.com/in/davidalfianhvn/" className="w-full sm:w-[60%] md:w-full pl-12 md:pl-6 p-4 bg-[#00457a] transition-all duration-300 hover:bg-[#005493] hover:rounded-md ">
+                <a href="https://www.linkedin.com/in/davidalfiana/" className="w-full sm:w-[60%] md:w-full pl-12 md:pl-6 p-4 bg-[#00457a] transition-all duration-300 hover:bg-[#005493] hover:rounded-md ">
                     <FontAwesomeIcon icon={faLinkedin} className="pr-4 text-white"/>
                     <span className="transition text-heading5 sm:text-heading5 md:text-heading5 text-white font-normal ">Linkedin</span>
                 </a>
             </div>
              
             <div className="flex flex-row items-center group gap-4">
-                <a href="https://www.behance.net/davidalfianhaven" className="w-full sm:w-[60%] md:w-full pl-12 md:pl-6 p-4 bg-[#0057ff] transition-all duration-300 hover:bg-[#064acc] hover:rounded-md ">
+                <a href="https://www.behance.net/davidalfiana" className="w-full sm:w-[60%] md:w-full pl-12 md:pl-6 p-4 bg-[#0057ff] transition-all duration-300 hover:bg-[#064acc] hover:rounded-md ">
                     <FontAwesomeIcon icon={faBehanceSquare} className="pr-4 text-white"/>
                     <span className="transition text-heading5 sm:text-heading5 md:text-heading5 text-white font-normal">Behance</span>
                 </a>
