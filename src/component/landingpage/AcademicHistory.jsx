@@ -2,6 +2,8 @@ import React from "react";
 
 const AcademicHistory = () => {
     return (
+    
+        
     <div id="main_academic-history" name="main_academic-history" className="min-w-[450px]">
         <div className="text-header2 flex flex-col justify-start xs:items-start xs:pl-20 md:pl-0 md:pb-12 md:items-center md:mb-[32px] mb-10 md:py-0">
             <span className="text-heading3 text-hijauA3B18A font-bold pb-2">Academic and Work</span>
@@ -13,7 +15,7 @@ const AcademicHistory = () => {
                 <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 md:flex flex-col justify-start items-end ">
                     <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">GAOTek Inc.</span>
                     <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1 item-end">UI/UX Designer Intern</span>
-                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> Nov 2024 - Now </span>
+                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> Nov 2024 - Apr 2025 </span>
                 </div>
             </div>
             <div className="relative col-span-1 w-full h-full flex justify-center items-center">
@@ -25,7 +27,7 @@ const AcademicHistory = () => {
                 <div className="w-full h-full bg-[#f6f6f6] rounded-md md:p-5 flex flex-col justify-start items-start ">
                     <span className="text-hijau344E41 text-heading4 md:text-heading4 lg:text-heading3 font-bold pb-2">GAOTek Inc.</span>
                     <span className="text-hijau344E41 text-heading5 md:text-heading4 font-normal pb-1">UI/UX Designer Intern</span>
-                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> Nov 2024 - Now </span>
+                    <span className="text-hijau344E41 text-heading5 font-normal xs:pb-3 md:pb-0"> Nov 2024 - Apr 2025 </span>
                 </div>
             </div>
         </div>

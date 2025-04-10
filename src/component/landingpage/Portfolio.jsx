@@ -13,7 +13,7 @@ const Portfolio = () => {
                 
             <div id="port" className=" flex flex-row flex-wrap justify-center mw1445:justify-start mx-[50px] mw1025:mx-36 mt-20 gap-8">
                 
-                <iframe  title="xxi" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]"  src="https://www.behance.net/embed/project/222458873?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <iframe  title="xxi" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px] "  src="https://www.behance.net/embed/project/222458873?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
 
                 <iframe title="9c" className=" w-[350px] h-[270px] mw485:w-[385px] mw485:h-[300px]" src="https://www.behance.net/embed/project/222458693?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
 

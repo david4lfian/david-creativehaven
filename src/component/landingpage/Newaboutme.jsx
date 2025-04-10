@@ -27,7 +27,6 @@ const Newaboutme = () => {
                     <span className="transition text-heading5 sm:text-heading5 md:text-heading5 xl:text-heading5 font-bold text-white ">Download My Resume</span>
                 </a>
             </div>
-            
         </div>
         
         <div id="hero_kanan" className="order-3  md:w-[25%] flex justify-start flex-col pl-20 pr-20 pb-10 pt-10 xl:px-10 md:pl-4 md:pr-4 md:py-20 xl:pt-24 gap-4 ">
@@ -42,14 +41,14 @@ const Newaboutme = () => {
                     <span className="transition text-heading5 sm:text-heading5 md:text-heading5 text-white font-normal">Github</span>
                 </a>
             </div>
-             
+        
             <div className="flex flex-row items-center group gap-4">
                 <a href="https://www.linkedin.com/in/davidalfiana/" className="w-full sm:w-[60%] md:w-full pl-12 md:pl-6 p-4 bg-[#00457a] transition-all duration-300 hover:bg-[#005493] hover:rounded-md ">
                     <FontAwesomeIcon icon={faLinkedin} className="pr-4 text-white"/>
                     <span className="transition text-heading5 sm:text-heading5 md:text-heading5 text-white font-normal ">Linkedin</span>
                 </a>
             </div>
-             
+            
             <div className="flex flex-row items-center group gap-4">
                 <a href="https://www.behance.net/davidalfiana" className="w-full sm:w-[60%] md:w-full pl-12 md:pl-6 p-4 bg-[#0057ff] transition-all duration-300 hover:bg-[#064acc] hover:rounded-md ">
                     <FontAwesomeIcon icon={faBehanceSquare} className="pr-4 text-white"/>
@@ -63,9 +62,7 @@ const Newaboutme = () => {
                     <span className="transition text-heading5 sm:text-heading5 md:text-heading5 text-black font-normal">Instagram</span>
                 </a>
             </div>
-            
-            
-            
+
         </div>
     </div>   
     )
